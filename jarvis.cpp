@@ -9,13 +9,13 @@
 #include <glm/glm.hpp>
 
 #include "constants.hpp"
-#include "triangleWidget.hpp"
+#include "streamVideo.hpp"
 
 using namespace glm;
-TriangleWidget triangle = TriangleWidget(100, 100, 500, 500, "Triangle Widget");
+streamVideo streamVid = streamVideo(100, 100, 500, 500, "Video Widget");
 
 void drawWidgets() {
-    triangle.renderWidget();
+    streamVid.renderWidget();
 }
 
 int main(int argc, char **argv)
